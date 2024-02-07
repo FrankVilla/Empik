@@ -16,7 +16,8 @@ class SearchViewController: UIViewController, Coordinating {
     var coordinator: Coordinator?
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var predictionTableView: UITableView!
-    private var viewModel = SearchViewModel()
+    var viewModel = SearchViewModel()
+    private var textFieldSubscription: AnyCancellable?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,14 +31,24 @@ class SearchViewController: UIViewController, Coordinating {
         searchTextField.text = nil
     }
     
+    deinit {
+        textFieldSubscription?.cancel()
+    }
+}
+
+extension SearchViewController {
     func configureView() {
         title = "Home"
     }
     
     func setupBindings() {
         predictionTableView.dataSource = self
-        predictionTableView.delegate = self
-        searchTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        predictionTableView.delegate = sel
+        textFieldSubscription = NotificationCenter.default.publisher(for: UITextField.textDidChangeNotification, object: searchTextField)
+            .map { ($0.object as? UITextField)?.text }
+            .sink { [weak self] searchText in
+                self?.viewModel.searchCities(withQuery: searchText ?? "")
+            }
         predictionTableView.register(UITableViewCell.self, forCellReuseIdentifier: "PredictionCell")
     }
     
@@ -49,31 +60,11 @@ class SearchViewController: UIViewController, Coordinating {
             }
             .store(in: &viewModel.cancellables)
     }
-    
-    // MARK: - User Interaction
-    @objc func textFieldDidChange(_ textField: UITextField) {
-        guard var searchText = textField.text else { return }
-        let invalidCharacters = CharacterSet(charactersIn: "0123456789!@#$%^&*()_+{}[]|\"<>,./?")
-        searchText = searchText.components(separatedBy: invalidCharacters).joined(separator: "")
-        if textField.text != searchText {
-            textField.text = searchText
-        }
-        viewModel.searchCities(withQuery: searchText)
-    }
 }
 
-// MARK: - Table View Data Source & Delegate
-
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if viewModel.predictions.isEmpty {
-            tableView.isHidden = true
-            return 0
-        } else {
-            tableView.isHidden = false
-            return viewModel.predictions.count
-        }
+        viewModel.predictions.isEmpty ? 0 : viewModel.predictions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -84,14 +75,11 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
-  
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            let selectedPrediction = viewModel.predictions[indexPath.row]
-            let cityName = selectedPrediction.attributedPrimaryText.string
-            print("Selected prediction: \(cityName)")
-            coordinator?.eventOccurred(whit: .navigateToDetailPage(city: cityName), city: nil)
-        
-
-        }
+        guard indexPath.row < viewModel.predictions.count else {return}
+        let selectedPrediction = viewModel.predictions[indexPath.row]
+        let cityName = selectedPrediction.attributedPrimaryText.string
+        print("Selected prediction: \(cityName)")
+        coordinator?.eventOccurred(whit: .navigateToDetailPage(city: cityName), city: nil)
+    }
 }

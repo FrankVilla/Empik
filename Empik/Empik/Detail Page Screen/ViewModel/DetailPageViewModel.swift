@@ -37,7 +37,7 @@ class DetailPageViewModel {
     func saveSearchToCoreData(city: String) {
             let context = persistentContainer.viewContext
             let searchHistory = SearchHistory(context: context)
-            searchHistory.city = city
+            searchHistory.cityName = city
 
             do {
                 try context.save()

@@ -13,7 +13,7 @@ class SearchViewModel: ObservableObject {
     @Published var predictions: [GMSAutocompletePrediction] = []
     var cancellables = Set<AnyCancellable>()
     var placesClient = GMSPlacesClient.shared()
-    
+    var selectedCity: String?
     func searchCities(withQuery query: String) {
         let token = GMSAutocompleteSessionToken()
         let filter = GMSAutocompleteFilter()

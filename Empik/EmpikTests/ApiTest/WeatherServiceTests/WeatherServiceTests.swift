@@ -7,6 +7,7 @@
 
 import XCTest
 import Combine
+@testable import Empik
 
 class WeatherServiceTests: XCTestCase {
     
@@ -40,4 +41,3 @@ class WeatherServiceTests: XCTestCase {
         cancellable.cancel()
     }
 }
-

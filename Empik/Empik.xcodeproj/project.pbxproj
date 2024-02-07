@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B204C9FB2B7384BC009B518A /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204C9FA2B7384BC009B518A /* SearchViewControllerTests.swift */; };
+		B204C9FD2B7385FB009B518A /* DetailPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204C9FC2B7385FB009B518A /* DetailPageViewControllerTests.swift */; };
+		B204CA022B7394EC009B518A /* Empik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B204CA002B7394EC009B518A /* Empik.xcdatamodeld */; };
+		B204CA072B739A22009B518A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B204CA042B739A22009B518A /* HomeViewController.xib */; };
+		B204CA082B739A22009B518A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B204CA042B739A22009B518A /* HomeViewController.xib */; };
+		B204CA0A2B739C43009B518A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204CA092B739C43009B518A /* SearchViewController.swift */; };
+		B204CA0B2B739C43009B518A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204CA092B739C43009B518A /* SearchViewController.swift */; };
+		B204CA0D2B739C73009B518A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204CA0C2B739C73009B518A /* HomeViewController.swift */; };
+		B204CA0E2B739C73009B518A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204CA0C2B739C73009B518A /* HomeViewController.swift */; };
+		B204CA152B73A71F009B518A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */; };
 		B274D5882B6DA8EB007DD72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5872B6DA8EB007DD72E /* AppDelegate.swift */; };
-		B274D5922B6DA8EB007DD72E /* Empik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */; };
 		B274D5942B6DA8F1007DD72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B274D5932B6DA8F1007DD72E /* Assets.xcassets */; };
 		B274D5972B6DA8F1007DD72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B274D5952B6DA8F1007DD72E /* LaunchScreen.storyboard */; };
 		B274D5AC2B6DA8F1007DD72E /* EmpikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5AB2B6DA8F1007DD72E /* EmpikUITests.swift */; };
 		B274D5AE2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5AD2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift */; };
-		B274D5C52B6DAA94007DD72E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5C32B6DAA94007DD72E /* HomeViewController.swift */; };
 		B274D5D92B6DAD34007DD72E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */; };
 		B274D5DA2B6DAD34007DD72E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */; };
 		B274D5DC2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */; };
 		B274D5DD2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */; };
-		B274D5E32B6E2877007DD72E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E12B6E2877007DD72E /* SearchViewController.swift */; };
-		B274D5E42B6E2877007DD72E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E12B6E2877007DD72E /* SearchViewController.swift */; };
 		B274D5E52B6E2877007DD72E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5E22B6E2877007DD72E /* SearchViewController.xib */; };
 		B274D5E62B6E2877007DD72E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5E22B6E2877007DD72E /* SearchViewController.xib */; };
 		B274D5E82B6E288C007DD72E /* SearchViewMolde.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */; };
@@ -36,9 +42,7 @@
 		B274D6042B6E2955007DD72E /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6022B6E2955007DD72E /* CoreData.swift */; };
 		B274D6062B6E2965007DD72E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6052B6E2965007DD72E /* WeatherService.swift */; };
 		B274D6072B6E2965007DD72E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6052B6E2965007DD72E /* WeatherService.swift */; };
-		B28063F42B72EDD40057BB95 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28063F32B72EDD40057BB95 /* HomeViewController.xib */; };
 		B2989D8A2B730DEE00216C8D /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2989D892B730DEE00216C8D /* HomeViewControllerTests.swift */; };
-		B2989D8B2B730DF800216C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5C32B6DAA94007DD72E /* HomeViewController.swift */; };
 		B2989D8C2B730ED000216C8D /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D394912B71784400D4E67D /* ConnectivityManager.swift */; };
 		B2A0B3F12B70EAFB007180A1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */; };
 		B2CB10652B702B9E00965CCA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10642B702B9E00965CCA /* WeatherModel.swift */; };
@@ -70,9 +74,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B204C9FA2B7384BC009B518A /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
+		B204C9FC2B7385FB009B518A /* DetailPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewControllerTests.swift; sourceTree = "<group>"; };
+		B204CA012B7394EC009B518A /* Empik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Empik.xcdatamodel; sourceTree = "<group>"; };
+		B204CA042B739A22009B518A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B204CA092B739C43009B518A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B204CA0C2B739C73009B518A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B274D5842B6DA8EB007DD72E /* Empik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B274D5872B6DA8EB007DD72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Empik.xcdatamodel; sourceTree = "<group>"; };
 		B274D5932B6DA8F1007DD72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B274D5962B6DA8F1007DD72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B274D5982B6DA8F1007DD72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,10 +89,8 @@
 		B274D5A72B6DA8F1007DD72E /* EmpikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B274D5AB2B6DA8F1007DD72E /* EmpikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpikUITests.swift; sourceTree = "<group>"; };
 		B274D5AD2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpikUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B274D5C32B6DAA94007DD72E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		B274D5E12B6E2877007DD72E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B274D5E22B6E2877007DD72E /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewMolde.swift; sourceTree = "<group>"; };
 		B274D5F02B6E28E3007DD72E /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +99,6 @@
 		B274D5FF2B6E2946007DD72E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B274D6022B6E2955007DD72E /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		B274D6052B6E2965007DD72E /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		B28063F32B72EDD40057BB95 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B2989D892B730DEE00216C8D /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B2CB10642B702B9E00965CCA /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -166,7 +172,7 @@
 				B274D5932B6DA8F1007DD72E /* Assets.xcassets */,
 				B274D5952B6DA8F1007DD72E /* LaunchScreen.storyboard */,
 				B274D5982B6DA8F1007DD72E /* Info.plist */,
-				B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */,
+				B204CA002B7394EC009B518A /* Empik.xcdatamodeld */,
 			);
 			path = Empik;
 			sourceTree = "<group>";
@@ -192,8 +198,8 @@
 		B274D5BB2B6DA91C007DD72E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B274D5C32B6DAA94007DD72E /* HomeViewController.swift */,
-				B28063F32B72EDD40057BB95 /* HomeViewController.xib */,
+				B204CA0C2B739C73009B518A /* HomeViewController.swift */,
+				B204CA042B739A22009B518A /* HomeViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,7 +299,7 @@
 		B274D5D42B6DAC0B007DD72E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B274D5E12B6E2877007DD72E /* SearchViewController.swift */,
+				B204CA092B739C43009B518A /* SearchViewController.swift */,
 				B274D5E22B6E2877007DD72E /* SearchViewController.xib */,
 			);
 			path = View;
@@ -346,6 +352,7 @@
 		B2CB106B2B70346100965CCA /* DetailPageViewControllerTest */ = {
 			isa = PBXGroup;
 			children = (
+				B204C9FC2B7385FB009B518A /* DetailPageViewControllerTests.swift */,
 			);
 			path = DetailPageViewControllerTest;
 			sourceTree = "<group>";
@@ -353,6 +360,7 @@
 		B2CB106C2B70346400965CCA /* SearchViewControllerTest */ = {
 			isa = PBXGroup;
 			children = (
+				B204C9FA2B7384BC009B518A /* SearchViewControllerTests.swift */,
 			);
 			path = SearchViewControllerTest;
 			sourceTree = "<group>";
@@ -503,7 +511,7 @@
 			files = (
 				B274D5972B6DA8F1007DD72E /* LaunchScreen.storyboard in Resources */,
 				B274D5942B6DA8F1007DD72E /* Assets.xcassets in Resources */,
-				B28063F42B72EDD40057BB95 /* HomeViewController.xib in Resources */,
+				B204CA072B739A22009B518A /* HomeViewController.xib in Resources */,
 				B274D5E52B6E2877007DD72E /* SearchViewController.xib in Resources */,
 				B274D5F42B6E28E3007DD72E /* DetailPageViewController.xib in Resources */,
 			);
@@ -515,6 +523,7 @@
 			files = (
 				B274D5E62B6E2877007DD72E /* SearchViewController.xib in Resources */,
 				B274D5F52B6E28E3007DD72E /* DetailPageViewController.xib in Resources */,
+				B204CA082B739A22009B518A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,18 +541,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B204CA022B7394EC009B518A /* Empik.xcdatamodeld in Sources */,
 				B2D394922B71784400D4E67D /* ConnectivityManager.swift in Sources */,
 				B274D5F22B6E28E3007DD72E /* DetailPageViewController.swift in Sources */,
-				B274D5C52B6DAA94007DD72E /* HomeViewController.swift in Sources */,
-				B274D5922B6DA8EB007DD72E /* Empik.xcdatamodeld in Sources */,
 				B2CB10652B702B9E00965CCA /* WeatherModel.swift in Sources */,
 				B274D6032B6E2955007DD72E /* CoreData.swift in Sources */,
 				B274D5E82B6E288C007DD72E /* SearchViewMolde.swift in Sources */,
 				B274D6062B6E2965007DD72E /* WeatherService.swift in Sources */,
-				B274D5E32B6E2877007DD72E /* SearchViewController.swift in Sources */,
 				B2A0B3F12B70EAFB007180A1 /* Coordinator.swift in Sources */,
 				B274D5882B6DA8EB007DD72E /* AppDelegate.swift in Sources */,
 				B274D5F72B6E2903007DD72E /* DetailPageViewModel.swift in Sources */,
+				B204CA0A2B739C43009B518A /* SearchViewController.swift in Sources */,
+				B204CA0D2B739C73009B518A /* HomeViewController.swift in Sources */,
 				B274D5D92B6DAD34007DD72E /* HomeViewModel.swift in Sources */,
 				B2CB10672B702BE700965CCA /* WeatherClient.swift in Sources */,
 				B274D6002B6E2946007DD72E /* Helpers.swift in Sources */,
@@ -555,17 +564,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B204C9FB2B7384BC009B518A /* SearchViewControllerTests.swift in Sources */,
 				B274D5F32B6E28E3007DD72E /* DetailPageViewController.swift in Sources */,
 				B274D6012B6E2946007DD72E /* Helpers.swift in Sources */,
 				B2CB10712B70357800965CCA /* WeatherServiceTests.swift in Sources */,
-				B274D5E42B6E2877007DD72E /* SearchViewController.swift in Sources */,
+				B204C9FD2B7385FB009B518A /* DetailPageViewControllerTests.swift in Sources */,
+				B204CA0E2B739C73009B518A /* HomeViewController.swift in Sources */,
 				B274D6042B6E2955007DD72E /* CoreData.swift in Sources */,
-				B2989D8B2B730DF800216C8D /* HomeViewController.swift in Sources */,
 				B274D5DD2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */,
 				B274D5E92B6E288C007DD72E /* SearchViewMolde.swift in Sources */,
 				B2CB10732B7035A400965CCA /* WeatherClientTests.swift in Sources */,
 				B274D5F82B6E2903007DD72E /* DetailPageViewModel.swift in Sources */,
+				B204CA152B73A71F009B518A /* Coordinator.swift in Sources */,
 				B274D5DA2B6DAD34007DD72E /* HomeViewModel.swift in Sources */,
+				B204CA0B2B739C43009B518A /* SearchViewController.swift in Sources */,
 				B2CB10742B70397D00965CCA /* WeatherClient.swift in Sources */,
 				B2989D8A2B730DEE00216C8D /* HomeViewControllerTests.swift in Sources */,
 				B2CB10762B703A2000965CCA /* WeatherModel.swift in Sources */,
@@ -938,12 +950,12 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */ = {
+		B204CA002B7394EC009B518A /* Empik.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */,
+				B204CA012B7394EC009B518A /* Empik.xcdatamodel */,
 			);
-			currentVersion = B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */;
+			currentVersion = B204CA012B7394EC009B518A /* Empik.xcdatamodel */;
 			path = Empik.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
