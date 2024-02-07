@@ -1,5 +1,7 @@
 # Task Empik
 
+# ATTENTION : This project is built with Xcode 13. and compiles with iOS13 If you are going to compile in Xcode 14 15 you may experience some errors with packages
+
 Functional Requirements:
 On the first view, users can search for the city for which they want to see the weather forecast.
 The city name entered must be validated using a regular expression:
