@@ -19,11 +19,7 @@ Above 20 degrees, color red.
 
 #Api used  https://openweathermap.org/api & Google API To locate the cities in a more efficient way 
 
-
-![Simulator Screen Shot - iPhone 11 - 2024-02-06 at 21 25 10](https://github.com/FrankVilla/Empik/assets/87357015/c2a8fdca-dea8-4037-83ff-ec45f37a71a3)
-![Simulator Screen Shot - iPhone 11 - 2024-02-07 at 00 10 26](https://github.com/FrankVilla/Empik/assets/87357015/ebc41d3f-dc97-48a4-93ff-969347726a76)
-![Simulator Screen Shot - iPhone 11 - 2024-02-07 at 00 10 17](https://github.com/FrankVilla/Empik/assets/87357015/9907c777-0e07-4cf5-8b57-9d40cfd86268)
-
-
 https://github.com/FrankVilla/Empik/assets/87357015/b8b22b90-d19a-4bfa-b305-0ab99c540195
-
+![Simulator Screen Shot - iPhone 11 - 2024-02-07 at 00 10 26](https://github.com/FrankVilla/Empik/assets/87357015/9c5ab2af-6e2c-4be5-89a5-05eef8ae230a)
+![Simulator Screen Shot - iPhone 11 - 2024-02-07 at 00 10 17](https://github.com/FrankVilla/Empik/assets/87357015/af9fc2c2-1ea8-4b8b-ad1b-eb85626ec7e9)
+![Simulator Screen Shot - iPhone 11 - 2024-02-06 at 21 25 10](https://github.com/FrankVilla/Empik/assets/87357015/373f5191-ed74-4dff-817c-53a64c61fa1b)
