@@ -18,7 +18,7 @@ enum WeatherServiceError: Error {
 class WeatherService {
     
     private let baseURL = "https://api.openweathermap.org/data/2.5/weather"
-    private let apiKey = "e1f300915f79f7b54c7d765cac8ff556"
+    private let apiKey = "YOU APIKEY"
 
     /// Fetches weather forecast for a specific city.
     ///
