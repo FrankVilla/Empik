@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-places-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googlemaps/ios-places-sdk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b15e69281aca28bb08a6684df2b1262eaeea92b7"
+      }
+    },
+    {
+      "identity" : "reachability.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ashleymills/Reachability.swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c01127cb51f591045696128effe43c16840d08bf"
+      }
+    }
+  ],
+  "version" : 2
+}

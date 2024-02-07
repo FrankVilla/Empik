@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B274D5882B6DA8EB007DD72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5872B6DA8EB007DD72E /* AppDelegate.swift */; };
+		B274D5922B6DA8EB007DD72E /* Empik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */; };
+		B274D5942B6DA8F1007DD72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B274D5932B6DA8F1007DD72E /* Assets.xcassets */; };
+		B274D5972B6DA8F1007DD72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B274D5952B6DA8F1007DD72E /* LaunchScreen.storyboard */; };
+		B274D5AC2B6DA8F1007DD72E /* EmpikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5AB2B6DA8F1007DD72E /* EmpikUITests.swift */; };
+		B274D5AE2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5AD2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift */; };
+		B274D5C52B6DAA94007DD72E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5C32B6DAA94007DD72E /* HomeViewController.swift */; };
+		B274D5D92B6DAD34007DD72E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */; };
+		B274D5DA2B6DAD34007DD72E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */; };
+		B274D5DC2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */; };
+		B274D5DD2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */; };
+		B274D5E32B6E2877007DD72E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E12B6E2877007DD72E /* SearchViewController.swift */; };
+		B274D5E42B6E2877007DD72E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E12B6E2877007DD72E /* SearchViewController.swift */; };
+		B274D5E52B6E2877007DD72E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5E22B6E2877007DD72E /* SearchViewController.xib */; };
+		B274D5E62B6E2877007DD72E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5E22B6E2877007DD72E /* SearchViewController.xib */; };
+		B274D5E82B6E288C007DD72E /* SearchViewMolde.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */; };
+		B274D5E92B6E288C007DD72E /* SearchViewMolde.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */; };
+		B274D5F22B6E28E3007DD72E /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5F02B6E28E3007DD72E /* DetailPageViewController.swift */; };
+		B274D5F32B6E28E3007DD72E /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5F02B6E28E3007DD72E /* DetailPageViewController.swift */; };
+		B274D5F42B6E28E3007DD72E /* DetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5F12B6E28E3007DD72E /* DetailPageViewController.xib */; };
+		B274D5F52B6E28E3007DD72E /* DetailPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B274D5F12B6E28E3007DD72E /* DetailPageViewController.xib */; };
+		B274D5F72B6E2903007DD72E /* DetailPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5F62B6E2903007DD72E /* DetailPageViewModel.swift */; };
+		B274D5F82B6E2903007DD72E /* DetailPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5F62B6E2903007DD72E /* DetailPageViewModel.swift */; };
+		B274D6002B6E2946007DD72E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5FF2B6E2946007DD72E /* Helpers.swift */; };
+		B274D6012B6E2946007DD72E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5FF2B6E2946007DD72E /* Helpers.swift */; };
+		B274D6032B6E2955007DD72E /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6022B6E2955007DD72E /* CoreData.swift */; };
+		B274D6042B6E2955007DD72E /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6022B6E2955007DD72E /* CoreData.swift */; };
+		B274D6062B6E2965007DD72E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6052B6E2965007DD72E /* WeatherService.swift */; };
+		B274D6072B6E2965007DD72E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D6052B6E2965007DD72E /* WeatherService.swift */; };
+		B28063F42B72EDD40057BB95 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28063F32B72EDD40057BB95 /* HomeViewController.xib */; };
+		B2989D8A2B730DEE00216C8D /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2989D892B730DEE00216C8D /* HomeViewControllerTests.swift */; };
+		B2989D8B2B730DF800216C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274D5C32B6DAA94007DD72E /* HomeViewController.swift */; };
+		B2989D8C2B730ED000216C8D /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D394912B71784400D4E67D /* ConnectivityManager.swift */; };
+		B2A0B3F12B70EAFB007180A1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */; };
+		B2CB10652B702B9E00965CCA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10642B702B9E00965CCA /* WeatherModel.swift */; };
+		B2CB10672B702BE700965CCA /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10662B702BE700965CCA /* WeatherClient.swift */; };
+		B2CB10712B70357800965CCA /* WeatherServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10702B70357800965CCA /* WeatherServiceTests.swift */; };
+		B2CB10732B7035A400965CCA /* WeatherClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10722B7035A400965CCA /* WeatherClientTests.swift */; };
+		B2CB10742B70397D00965CCA /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10662B702BE700965CCA /* WeatherClient.swift */; };
+		B2CB10762B703A2000965CCA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB10642B702B9E00965CCA /* WeatherModel.swift */; };
+		B2D3948F2B71754000D4E67D /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = B2D3948E2B71754000D4E67D /* Reachability */; };
+		B2D394922B71784400D4E67D /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D394912B71784400D4E67D /* ConnectivityManager.swift */; };
+		B2D394982B72289A00D4E67D /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = B2D394972B72289A00D4E67D /* GooglePlaces */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B274D59E2B6DA8F1007DD72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B274D57C2B6DA8EB007DD72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B274D5832B6DA8EB007DD72E;
+			remoteInfo = Empik;
+		};
+		B274D5A82B6DA8F1007DD72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B274D57C2B6DA8EB007DD72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B274D5832B6DA8EB007DD72E;
+			remoteInfo = Empik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B274D5842B6DA8EB007DD72E /* Empik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B274D5872B6DA8EB007DD72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Empik.xcdatamodel; sourceTree = "<group>"; };
+		B274D5932B6DA8F1007DD72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B274D5962B6DA8F1007DD72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B274D5982B6DA8F1007DD72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B274D59D2B6DA8F1007DD72E /* EmpikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B274D5A72B6DA8F1007DD72E /* EmpikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B274D5AB2B6DA8F1007DD72E /* EmpikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpikUITests.swift; sourceTree = "<group>"; };
+		B274D5AD2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B274D5C32B6DAA94007DD72E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B274D5E12B6E2877007DD72E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B274D5E22B6E2877007DD72E /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewMolde.swift; sourceTree = "<group>"; };
+		B274D5F02B6E28E3007DD72E /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		B274D5F12B6E28E3007DD72E /* DetailPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPageViewController.xib; sourceTree = "<group>"; };
+		B274D5F62B6E2903007DD72E /* DetailPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewModel.swift; sourceTree = "<group>"; };
+		B274D5FF2B6E2946007DD72E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B274D6022B6E2955007DD72E /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B274D6052B6E2965007DD72E /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		B28063F32B72EDD40057BB95 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B2989D892B730DEE00216C8D /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B2CB10642B702B9E00965CCA /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		B2CB10662B702BE700965CCA /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		B2CB10702B70357800965CCA /* WeatherServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServiceTests.swift; sourceTree = "<group>"; };
+		B2CB10722B7035A400965CCA /* WeatherClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClientTests.swift; sourceTree = "<group>"; };
+		B2D394912B71784400D4E67D /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B274D5812B6DA8EB007DD72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3948F2B71754000D4E67D /* Reachability in Frameworks */,
+				B2D394982B72289A00D4E67D /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D59A2B6DA8F1007DD72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D5A42B6DA8F1007DD72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B274D57B2B6DA8EB007DD72E = {
+			isa = PBXGroup;
+			children = (
+				B274D5862B6DA8EB007DD72E /* Empik */,
+				B274D5A02B6DA8F1007DD72E /* EmpikTests */,
+				B274D5AA2B6DA8F1007DD72E /* EmpikUITests */,
+				B274D5852B6DA8EB007DD72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B274D5852B6DA8EB007DD72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5842B6DA8EB007DD72E /* Empik.app */,
+				B274D59D2B6DA8F1007DD72E /* EmpikTests.xctest */,
+				B274D5A72B6DA8F1007DD72E /* EmpikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B274D5862B6DA8EB007DD72E /* Empik */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5BE2B6DA924007DD72E /* Delegate */,
+				B2D394902B71782700D4E67D /* ConnectivityManager */,
+				B274D5BF2B6DA95C007DD72E /* Services */,
+				B2CB10692B702D1200965CCA /* WeatherClient */,
+				B2CB10682B702D0E00965CCA /* WeatherModel */,
+				B274D5C02B6DA966007DD72E /* Helpers */,
+				B274D5CE2B6DAABC007DD72E /* Core Data */,
+				B274D5D02B6DAADF007DD72E /* Coordinator */,
+				B274D5CA2B6DAAB1007DD72E /* Home Screen */,
+				B274D5CB2B6DAAB5007DD72E /* Search Screen */,
+				B274D5CC2B6DAAB8007DD72E /* Detail Page Screen */,
+				B274D5932B6DA8F1007DD72E /* Assets.xcassets */,
+				B274D5952B6DA8F1007DD72E /* LaunchScreen.storyboard */,
+				B274D5982B6DA8F1007DD72E /* Info.plist */,
+				B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */,
+			);
+			path = Empik;
+			sourceTree = "<group>";
+		};
+		B274D5A02B6DA8F1007DD72E /* EmpikTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2989D8F2B730F8F00216C8D /* ViewControllerTest */,
+				B2989D8D2B730F5500216C8D /* ApiTest */,
+			);
+			path = EmpikTests;
+			sourceTree = "<group>";
+		};
+		B274D5AA2B6DA8F1007DD72E /* EmpikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5AB2B6DA8F1007DD72E /* EmpikUITests.swift */,
+				B274D5AD2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift */,
+			);
+			path = EmpikUITests;
+			sourceTree = "<group>";
+		};
+		B274D5BB2B6DA91C007DD72E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5C32B6DAA94007DD72E /* HomeViewController.swift */,
+				B28063F32B72EDD40057BB95 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B274D5BC2B6DA91F007DD72E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5F62B6E2903007DD72E /* DetailPageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B274D5BD2B6DA921007DD72E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5E72B6E288C007DD72E /* SearchViewMolde.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B274D5BE2B6DA924007DD72E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5872B6DA8EB007DD72E /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B274D5BF2B6DA95C007DD72E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B274D6052B6E2965007DD72E /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B274D5C02B6DA966007DD72E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5FF2B6E2946007DD72E /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B274D5CA2B6DAAB1007DD72E /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5CF2B6DAADD007DD72E /* ViewModel */,
+				B274D5BB2B6DA91C007DD72E /* View */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		B274D5CB2B6DAAB5007DD72E /* Search Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5BD2B6DA921007DD72E /* ViewModel */,
+				B274D5D42B6DAC0B007DD72E /* View */,
+			);
+			path = "Search Screen";
+			sourceTree = "<group>";
+		};
+		B274D5CC2B6DAAB8007DD72E /* Detail Page Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5BC2B6DA91F007DD72E /* ViewModel */,
+				B274D5D72B6DAC3A007DD72E /* View */,
+			);
+			path = "Detail Page Screen";
+			sourceTree = "<group>";
+		};
+		B274D5CE2B6DAABC007DD72E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B274D6022B6E2955007DD72E /* CoreData.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		B274D5CF2B6DAADD007DD72E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5D82B6DAD34007DD72E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B274D5D02B6DAADF007DD72E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5DB2B6DAD4A007DD72E /* MainCoordinator.swift */,
+				B2A0B3F02B70EAFB007180A1 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B274D5D42B6DAC0B007DD72E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5E12B6E2877007DD72E /* SearchViewController.swift */,
+				B274D5E22B6E2877007DD72E /* SearchViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B274D5D72B6DAC3A007DD72E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B274D5F02B6E28E3007DD72E /* DetailPageViewController.swift */,
+				B274D5F12B6E28E3007DD72E /* DetailPageViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2989D8D2B730F5500216C8D /* ApiTest */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB106F2B70346D00965CCA /* WeatherServiceTests */,
+				B2CB106E2B70346900965CCA /* WeatherClientTests */,
+			);
+			path = ApiTest;
+			sourceTree = "<group>";
+		};
+		B2989D8F2B730F8F00216C8D /* ViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB106D2B70346600965CCA /* HomeViewControllerTests */,
+				B2CB106C2B70346400965CCA /* SearchViewControllerTest */,
+				B2CB106B2B70346100965CCA /* DetailPageViewControllerTest */,
+			);
+			path = ViewControllerTest;
+			sourceTree = "<group>";
+		};
+		B2CB10682B702D0E00965CCA /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB10642B702B9E00965CCA /* WeatherModel.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		B2CB10692B702D1200965CCA /* WeatherClient */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB10662B702BE700965CCA /* WeatherClient.swift */,
+			);
+			path = WeatherClient;
+			sourceTree = "<group>";
+		};
+		B2CB106B2B70346100965CCA /* DetailPageViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailPageViewControllerTest;
+			sourceTree = "<group>";
+		};
+		B2CB106C2B70346400965CCA /* SearchViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchViewControllerTest;
+			sourceTree = "<group>";
+		};
+		B2CB106D2B70346600965CCA /* HomeViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2989D892B730DEE00216C8D /* HomeViewControllerTests.swift */,
+			);
+			path = HomeViewControllerTests;
+			sourceTree = "<group>";
+		};
+		B2CB106E2B70346900965CCA /* WeatherClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB10722B7035A400965CCA /* WeatherClientTests.swift */,
+			);
+			path = WeatherClientTests;
+			sourceTree = "<group>";
+		};
+		B2CB106F2B70346D00965CCA /* WeatherServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB10702B70357800965CCA /* WeatherServiceTests.swift */,
+			);
+			path = WeatherServiceTests;
+			sourceTree = "<group>";
+		};
+		B2D394902B71782700D4E67D /* ConnectivityManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2D394912B71784400D4E67D /* ConnectivityManager.swift */,
+			);
+			path = ConnectivityManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B274D5832B6DA8EB007DD72E /* Empik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B274D5B12B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "Empik" */;
+			buildPhases = (
+				B274D5802B6DA8EB007DD72E /* Sources */,
+				B274D5812B6DA8EB007DD72E /* Frameworks */,
+				B274D5822B6DA8EB007DD72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Empik;
+			packageProductDependencies = (
+				B2D3948E2B71754000D4E67D /* Reachability */,
+				B2D394972B72289A00D4E67D /* GooglePlaces */,
+			);
+			productName = Empik;
+			productReference = B274D5842B6DA8EB007DD72E /* Empik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B274D59C2B6DA8F1007DD72E /* EmpikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B274D5B42B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "EmpikTests" */;
+			buildPhases = (
+				B274D5992B6DA8F1007DD72E /* Sources */,
+				B274D59A2B6DA8F1007DD72E /* Frameworks */,
+				B274D59B2B6DA8F1007DD72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B274D59F2B6DA8F1007DD72E /* PBXTargetDependency */,
+			);
+			name = EmpikTests;
+			productName = EmpikTests;
+			productReference = B274D59D2B6DA8F1007DD72E /* EmpikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B274D5A62B6DA8F1007DD72E /* EmpikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B274D5B72B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "EmpikUITests" */;
+			buildPhases = (
+				B274D5A32B6DA8F1007DD72E /* Sources */,
+				B274D5A42B6DA8F1007DD72E /* Frameworks */,
+				B274D5A52B6DA8F1007DD72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B274D5A92B6DA8F1007DD72E /* PBXTargetDependency */,
+			);
+			name = EmpikUITests;
+			productName = EmpikUITests;
+			productReference = B274D5A72B6DA8F1007DD72E /* EmpikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B274D57C2B6DA8EB007DD72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B274D5832B6DA8EB007DD72E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B274D59C2B6DA8F1007DD72E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B274D5832B6DA8EB007DD72E;
+					};
+					B274D5A62B6DA8F1007DD72E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B274D5832B6DA8EB007DD72E;
+					};
+				};
+			};
+			buildConfigurationList = B274D57F2B6DA8EB007DD72E /* Build configuration list for PBXProject "Empik" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B274D57B2B6DA8EB007DD72E;
+			packageReferences = (
+				B2D3948D2B71754000D4E67D /* XCRemoteSwiftPackageReference "Reachability" */,
+				B2D394962B72289A00D4E67D /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = B274D5852B6DA8EB007DD72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B274D5832B6DA8EB007DD72E /* Empik */,
+				B274D59C2B6DA8F1007DD72E /* EmpikTests */,
+				B274D5A62B6DA8F1007DD72E /* EmpikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B274D5822B6DA8EB007DD72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274D5972B6DA8F1007DD72E /* LaunchScreen.storyboard in Resources */,
+				B274D5942B6DA8F1007DD72E /* Assets.xcassets in Resources */,
+				B28063F42B72EDD40057BB95 /* HomeViewController.xib in Resources */,
+				B274D5E52B6E2877007DD72E /* SearchViewController.xib in Resources */,
+				B274D5F42B6E28E3007DD72E /* DetailPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D59B2B6DA8F1007DD72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274D5E62B6E2877007DD72E /* SearchViewController.xib in Resources */,
+				B274D5F52B6E28E3007DD72E /* DetailPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D5A52B6DA8F1007DD72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B274D5802B6DA8EB007DD72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D394922B71784400D4E67D /* ConnectivityManager.swift in Sources */,
+				B274D5F22B6E28E3007DD72E /* DetailPageViewController.swift in Sources */,
+				B274D5C52B6DAA94007DD72E /* HomeViewController.swift in Sources */,
+				B274D5922B6DA8EB007DD72E /* Empik.xcdatamodeld in Sources */,
+				B2CB10652B702B9E00965CCA /* WeatherModel.swift in Sources */,
+				B274D6032B6E2955007DD72E /* CoreData.swift in Sources */,
+				B274D5E82B6E288C007DD72E /* SearchViewMolde.swift in Sources */,
+				B274D6062B6E2965007DD72E /* WeatherService.swift in Sources */,
+				B274D5E32B6E2877007DD72E /* SearchViewController.swift in Sources */,
+				B2A0B3F12B70EAFB007180A1 /* Coordinator.swift in Sources */,
+				B274D5882B6DA8EB007DD72E /* AppDelegate.swift in Sources */,
+				B274D5F72B6E2903007DD72E /* DetailPageViewModel.swift in Sources */,
+				B274D5D92B6DAD34007DD72E /* HomeViewModel.swift in Sources */,
+				B2CB10672B702BE700965CCA /* WeatherClient.swift in Sources */,
+				B274D6002B6E2946007DD72E /* Helpers.swift in Sources */,
+				B274D5DC2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D5992B6DA8F1007DD72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274D5F32B6E28E3007DD72E /* DetailPageViewController.swift in Sources */,
+				B274D6012B6E2946007DD72E /* Helpers.swift in Sources */,
+				B2CB10712B70357800965CCA /* WeatherServiceTests.swift in Sources */,
+				B274D5E42B6E2877007DD72E /* SearchViewController.swift in Sources */,
+				B274D6042B6E2955007DD72E /* CoreData.swift in Sources */,
+				B2989D8B2B730DF800216C8D /* HomeViewController.swift in Sources */,
+				B274D5DD2B6DAD4A007DD72E /* MainCoordinator.swift in Sources */,
+				B274D5E92B6E288C007DD72E /* SearchViewMolde.swift in Sources */,
+				B2CB10732B7035A400965CCA /* WeatherClientTests.swift in Sources */,
+				B274D5F82B6E2903007DD72E /* DetailPageViewModel.swift in Sources */,
+				B274D5DA2B6DAD34007DD72E /* HomeViewModel.swift in Sources */,
+				B2CB10742B70397D00965CCA /* WeatherClient.swift in Sources */,
+				B2989D8A2B730DEE00216C8D /* HomeViewControllerTests.swift in Sources */,
+				B2CB10762B703A2000965CCA /* WeatherModel.swift in Sources */,
+				B2989D8C2B730ED000216C8D /* ConnectivityManager.swift in Sources */,
+				B274D6072B6E2965007DD72E /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274D5A32B6DA8F1007DD72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274D5AC2B6DA8F1007DD72E /* EmpikUITests.swift in Sources */,
+				B274D5AE2B6DA8F1007DD72E /* EmpikUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B274D59F2B6DA8F1007DD72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B274D5832B6DA8EB007DD72E /* Empik */;
+			targetProxy = B274D59E2B6DA8F1007DD72E /* PBXContainerItemProxy */;
+		};
+		B274D5A92B6DA8F1007DD72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B274D5832B6DA8EB007DD72E /* Empik */;
+			targetProxy = B274D5A82B6DA8F1007DD72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B274D5952B6DA8F1007DD72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B274D5962B6DA8F1007DD72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B274D5AF2B6DA8F1007DD72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B274D5B02B6DA8F1007DD72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B274D5B22B6DA8F1007DD72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Empik/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to your location to provide location-based services, even when the app is running in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to provide location-based services while you are using the app";
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.Empik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B274D5B32B6DA8F1007DD72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Empik/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to your location to provide location-based services, even when the app is running in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need access to your location to provide location-based services while you are using the app";
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.Empik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B274D5B52B6DA8F1007DD72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.EmpikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empik.app/Empik";
+			};
+			name = Debug;
+		};
+		B274D5B62B6DA8F1007DD72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.EmpikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empik.app/Empik";
+			};
+			name = Release;
+		};
+		B274D5B82B6DA8F1007DD72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.EmpikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Empik;
+			};
+			name = Debug;
+		};
+		B274D5B92B6DA8F1007DD72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVUFYQ6N85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KOVIGROUP.EmpikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Empik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B274D57F2B6DA8EB007DD72E /* Build configuration list for PBXProject "Empik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274D5AF2B6DA8F1007DD72E /* Debug */,
+				B274D5B02B6DA8F1007DD72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B274D5B12B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "Empik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274D5B22B6DA8F1007DD72E /* Debug */,
+				B274D5B32B6DA8F1007DD72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B274D5B42B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "EmpikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274D5B52B6DA8F1007DD72E /* Debug */,
+				B274D5B62B6DA8F1007DD72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B274D5B72B6DA8F1007DD72E /* Build configuration list for PBXNativeTarget "EmpikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274D5B82B6DA8F1007DD72E /* Debug */,
+				B274D5B92B6DA8F1007DD72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2D3948D2B71754000D4E67D /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B2D394962B72289A00D4E67D /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2D3948E2B71754000D4E67D /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2D3948D2B71754000D4E67D /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+		B2D394972B72289A00D4E67D /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2D394962B72289A00D4E67D /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B274D5902B6DA8EB007DD72E /* Empik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */,
+			);
+			currentVersion = B274D5912B6DA8EB007DD72E /* Empik.xcdatamodel */;
+			path = Empik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B274D57C2B6DA8EB007DD72E /* Project object */;
+}
