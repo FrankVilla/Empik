@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var coordinator: MainCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
         GMSPlacesClient.provideAPIKey("YOU APIKEY")
         let navegationCon = UINavigationController()
         coordinator = MainCoordinator()

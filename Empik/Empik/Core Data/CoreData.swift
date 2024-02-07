@@ -9,5 +9,5 @@ import Foundation
 import CoreData
 
 class SearchHistory: NSManagedObject {
-    @NSManaged var city: String
+    @NSManaged var cityName: String
 }

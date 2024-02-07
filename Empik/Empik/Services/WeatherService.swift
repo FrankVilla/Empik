@@ -19,6 +19,7 @@ class WeatherService {
     
     private let baseURL = "https://api.openweathermap.org/data/2.5/weather"
     private let apiKey = "YOU API KEY"
+
     /// Fetches weather forecast for a specific city.
     ///
     /// - Parameter city: The name of the city.

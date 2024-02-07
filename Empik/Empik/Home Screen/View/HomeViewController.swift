@@ -28,7 +28,7 @@ class HomeViewController: UIViewController, Coordinating, UISearchBarDelegate {
         configureUI()
         setupTableView()
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         configureView()
@@ -48,6 +48,7 @@ extension HomeViewController {
     func setupTableView() {
         configureTableView()
         dataTableView.dataSource = self
+        dataTableView.delegate = self
         dataTableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
     }
     
@@ -81,6 +82,10 @@ extension HomeViewController {
         guard let searchText = searchBar.text, !searchText.isEmpty else {return}
     }
     
+    @IBAction func deleteAllSearchHistory(_ sender: Any) {
+        viewModel?.deleteAllSearchHistory()
+        setupTableView()
+    }
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -94,7 +99,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             fatalError("ViewModel is nil")
         }
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        let city = viewModel.searchHistory[indexPath.row].city
+        let city = viewModel.searchHistory[indexPath.row].cityName
         cell.textLabel?.text = city
         return cell
     }
